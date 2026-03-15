@@ -223,15 +223,21 @@ function startTypewriter() {
     const messageContent = document.querySelector('.message-content');
     if (!messageContent) return;
     
-    const fullMessage = `Hi,Din
+    const fullMessage = `Hi,Ness
 
-Happy Birthday!
+Happy birthday yaa 🎉🥳
 
-Aku cuman mau bilang jangan pernah kecewa sama perjuangan yang kamu bangun selama ini, dan jangan pernah kamu runtuhin dengan kegagalan kamu, it's okey keep trying again, coba lagi nggak masalahkan? sampe kamu bisa mendapatkan apa  yang ingin kamu dapatin. just because it's hard mean it's impossible. you can do it
+Nggak kerasa kamu udah nambah umur lagi. Semoga di umur kamu yang sekarang kamu selalu sehat, panjang umur, dan banyak hal baik yang datang ke kamu 🤍✨ Aku cuma bisa ngucapin lewat kata-kata ini, maaf ya kalau cuma sebatas ucapan.
 
-Semuanya pasti berlalu, walaupun nggak mudah untuk melewati semua masalah, bertahan pasti kamu bisa! jangan menyerah, kamu sudah hebat i'm proud of you. aku bangga liat kamu berjuang walaupun sudah capek mungkin? kamu udah keren
+Semoga apa yang kamu pengenin dari dulu pelan-pelan bisa tercapai 🤲 Kalau suatu saat capek atau ngerasa berat, inget aja kamu udah kuat banget sampai di titik sekarang 💪 Jadi jangan ragu sama diri kamu sendiri ya.
 
-i hope you're doing good, please take a good care of yourself. don't push yourself too hard. take a break if your're tired. you're doing great so far. keep going and dont ever give up. i do wish you all the best.`;
+Jangan lupa juga buat tetap baik sama diri kamu sendiri. Kamu juga pantas buat bahagia 🌷
+
+Oh iya, semoga rezekinya juga makin lancar… biar nanti bisa traktir aku 😆🍜 hehe bercanda kok.
+
+Pokoknya semoga hari ini jadi hari yang menyenangkan buat kamu 🎂🎈 Tetap jadi kamu yang ceria ya, karena dunia juga butuh versi terbaik dari kamu.
+
+Sekali lagi, selamat ulang tahun yaa 🎉 Semoga banyak hal baik yang selalu nyamperin kamu 🤍✨`;
     
     // Clear content and start fresh
     messageContent.innerHTML = '';
@@ -266,8 +272,7 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi Din,<br><br>Happy Birthday!<br><br>Aku cuman mau bilang jangan pernah kecewa sama perjuangan yang kamu bangun selama ini, dan jangan pernah kamu runtuhin dengan kegagalan kamu, it's okey keep trying again, coba lagi nggak masalahkan? sampe kamu bisa mendapatkan apa  yang ingin kamu dapatin. just because it's hard mean it's impossible. you can do it
-<br><br>Semuanya pasti berlalu, walaupun nggak mudah untuk melewati semua masalah, bertahan pasti kamu bisa! jangan menyerah, kamu sudah hebat i'm proud of you. aku bangga liat kamu berjuang walaupun sudah capek mungkin? kamu udah keren.<br><br>i hope you're doing good, please take a good care of yourself. don't push yourself too hard. take a break if your're tired. you're doing great so far. keep going and dont ever give up. i do wish you all the best.`;
+            const fullMessage = `Hi Ness,<br><br>Happy birthday yaa 🎉🥳<br><br>Nggak kerasa kamu udah nambah umur lagi. Semoga di umur kamu yang sekarang kamu selalu sehat, panjang umur, dan banyak hal baik yang datang ke kamu 🤍✨ Aku cuma bisa ngucapin lewat kata-kata ini, maaf ya kalau cuma sebatas ucapan.     <br><br>Semoga apa yang kamu pengenin dari dulu pelan-pelan bisa tercapai 🤲 Kalau suatu saat capek atau ngerasa berat, inget aja kamu udah kuat banget sampai di titik sekarang 💪 Jadi jangan ragu sama diri kamu sendiri ya.             <br><br>Jangan lupa juga buat tetap baik sama diri kamu sendiri. Kamu juga pantas buat bahagia 🌷       <br><br>Oh iya, semoga rezekinya juga makin lancar… biar nanti bisa traktir aku 😆🍜 hehe bercanda kok. <br><br>Pokoknya semoga hari ini jadi hari yang menyenangkan buat kamu 🎂🎈 Tetap jadi kamu yang ceria ya, karena dunia juga butuh versi terbaik dari kamu.                <br><br>Sekali lagi, selamat ulang tahun yaa 🎉 Semoga banyak hal baik yang selalu nyamperin kamu 🤍✨`;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
@@ -323,15 +328,15 @@ function startPhotoShow() {
     // Foto lokal dari folder images
     const photos = [
         {
-            text: 'Future health information officer 👩🏻‍⚕️',
+            text: 'Cute little girl with a white dress and gifts 🎁👶',
             image: './images/photo7.jpg'
         },
         {
-            text: 'Midnight Miles 🏃🏻‍♀️',
+            text: 'A playful girl in a café 😝☕',
             image: './images/photo2.jpg'
         },
         {
-            text: 'Above the Clouds ☁️',
+            text: 'Enjoying the concert 🎶✨',
             image: './images/photo3.jpg'
         },
         {
@@ -339,19 +344,19 @@ function startPhotoShow() {
             image: './images/photo4.jpg'
         },
         {
-            text: 'On the Mountain Trail ⛰️',
+            text: 'A Dancing in the rain tonight 🌧️✨,
             image: './images/photo5.jpg'
         },
         {
-            text: 'Just beachy 🌊',
+            text: 'A little teary, still cute 😢🤍',
             image: './images/photo6.jpg'
         },
         {
-            text: 'Matcha Nights 🍵',
+            text: 'Fresh after a shower 🚿✨',
             image: './images/photo1.jpg'
         },
         {
-            text: '“Sweet smile while waiting for food 😊',
+            text: '“Enjoying the fresh air and peaceful garden vibes 🌿🌸🤍',
             image: './images/photo8.jpg'
         }
     ];
@@ -617,15 +622,15 @@ function loadSpotifyPlaylist(playlistNumber) {
         },
         2: {
             // Ganti dengan playlist kedua kamu
-            embedUrl: 'https://open.spotify.com/embed/playlist/5AUCtdYWSI4aDYnuinB09u?si=yA-cMfqkQNSNTgmb4MBKDw',
-            name: 'Her',
-            description: 'Lagu-lagu cinta tanpa banyak kata cukup perasaan yang jujur dan lembut ❤️'
+            embedUrl: 'https://open.spotify.com/embed/playlist/5c7L3Q2GcDcFLIxPx8lRkB?si=exQZsuzbSdawC7ksm9bK0g',
+            name: 'playsh!t',
+            description: 'Lagu-lagu untuk menemani malam yang tenang. Tentang cinta, harapan, dan cerita yang belum selesai ❤️'
         },
         3: {
             // Ganti dengan playlist ketiga kamu
-            embedUrl: 'https://open.spotify.com/embed/playlist/4oJXrNyfmUp2cqjHnHdZhK?si=TmHCMxsARyeR9LIi9-BDhA&nd=1&utm_medium=organic&product=open&%24full_url=https%3A%2F%2Fopen.spotify.com%2Fplaylist%2F4oJXrNyfmUp2cqjHnHdZhK%3Fsi%3DTmHCMxsARyeR9LIi9-BDhA&feature=organic&_branch_match_id=1537640509154168993&_branch_referrer=H4sIAAAAAAAAA72N3wqCMByFn2bepaQSFEhYIfb3IgqiG5lzc8u5rd8m5U3PngW9QnAuDufj43DnjJ0FgTXaCdb72BhfCtUEcwO66ohLtKHKQ2HMOimLDmTCPwqKUhRmQz7Y%2F9lEt8NkJO6lsG6osd5c4NCz9mxCcr%2FlKq%2BufIuizAoUrU5tvtw%2FbXrs6XG6W4vpaLHi6fcMS1li0vzlEIUTVQ107DGKXQc00VBjJYj3AsoogFB1UYJ%2BWArJkoNu6RvBx6PvNwEAAA%3D%3D',
-            name: 'playshit!',
-            description: 'Lagu-lagu buat nemenin perjalanan isinya tenang, sendu dikit, tapi aman 🌟'
+            embedUrl: 'https://open.spotify.com/embed/playlist/5Kv3q3hkGievZDA1mMbEML?si=OE_YxhLmSZuGBlwXvDvzlA',
+            name: '-‘๑’-',
+            description: 'Kumpulan lagu mellow tentang cinta, rindu, dan kenangan. Cocok didengar saat malam ketika pikiran mulai ramai 🎧'
         }
     };
     
