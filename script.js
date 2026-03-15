@@ -344,7 +344,7 @@ function startPhotoShow() {
             image: './images/photo4.jpg'
         },
         {
-            text: 'A Dancing in the rain tonight 🌧️✨,
+            text: 'A Dancing in the rain tonight 🌧️✨',
             image: './images/photo5.jpg'
         },
         {
